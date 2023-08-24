@@ -5,5 +5,5 @@ print("#                                     #")
 print("#######################################")
 
 
-pular_casas = input("Escolha um valor de Deslocamento: ")
-print("Você escolheu: " + pular_casas)
+deslocamento = input("Escolha um valor de deslocamento: ")
+print("Você escolheu: " + deslocamento)
