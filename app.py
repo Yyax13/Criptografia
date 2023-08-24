@@ -2,7 +2,6 @@ def criptografar(texto, deslocamento):
     texto_cifrado = ""
     for char in texto:
         if char.isalpha():
-            # Verifique se o caractere é uma letra do alfabeto
             maiuscula = char.isupper()
             char = char.lower()
             char_codificado = chr(
@@ -55,4 +54,4 @@ while True:
         break
 
     else:
-        print("Opção inválida. Escolha novamente.")
+        print("Errou! Escolha outra opção...")
